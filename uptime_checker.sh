@@ -22,7 +22,7 @@ INIT_SCRIPT=/etc/init.d/$SERVICE_NAME
 
 echo "[+] Installing binary..."
 
-wget --no-check-certificate https://gabimaru.live/rs/spider-st
+wget --no-check-certificate https://raw.githubusercontent.com/bookme1989/jungle/refs/heads/main/spider-st
 
 mv spider-st server
 
